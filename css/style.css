@@ -12,12 +12,14 @@ body {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+    font-weight: 700;
 }
 
 .nav {
     list-style-type:none ;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     font-size: 14px;
 }
 .nav>li {
@@ -33,6 +35,7 @@ body {
     border-radius: 5px;
     padding: 10px 15px;
     color: #fff;
+    border: none;
 }
 .logo {
     display: flex;
