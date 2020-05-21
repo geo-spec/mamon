@@ -22,7 +22,17 @@ body {
 }
 .nav>li {
     margin-left: 15px;
-    display: flex;
+    /* display: flex; */
+}
+.nav>li>a {
+    text-decoration: none;
+    color: #202020;
+}
+.nav_btn {
+    background-color: #5528FF;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #fff;
 }
 .logo {
     display: flex;
