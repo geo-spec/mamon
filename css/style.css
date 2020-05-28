@@ -62,9 +62,18 @@ body {
     font-size: 24px;
     color: #202020;
 }
+.button {
+    background-color: #5528FF;
+    border-radius: 5px;
+    padding: 10px 45px;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+}
 .page {
     padding-top: 40px;
     padding-bottom: 40px;
+    position: relative;
 }
 .page-top {
     border-top: 1px solid #C2C2C2;
