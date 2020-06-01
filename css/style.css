@@ -21,6 +21,7 @@ body {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    box-sizing: border-box;
 }
 .nav {
     list-style-type:none ;
@@ -110,9 +111,10 @@ body {
 }
 .services_img {
     flex-basis: 100px;
+    text-align: center;
 }
 .services_text {
-    flex-basis: calc(100% - 100px);
+    flex-basis: calc(100% - 120px);
 }
 
 .services h3 {
@@ -124,4 +126,8 @@ body {
     font-size: 14px;
     color: #b2b2b2;
     line-height: 1.5;
+}
+.clients {
+    display: grid;
+    grid-template: 120px 120px / repeat(4, 25%);
 }
