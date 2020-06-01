@@ -130,4 +130,21 @@ body {
 .clients {
     display: grid;
     grid-template: 120px 120px / repeat(4, 25%);
+    text-align: center;
+}
+.team {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+.team-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.team-item img{
+    margin-right: 20px;
+
+}
+.team-item>div {
+    flex-basis: calc(100% - 100px);
 }
