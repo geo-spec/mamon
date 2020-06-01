@@ -103,6 +103,17 @@ body {
     display: grid;
     grid-template: 50% 50% / 50% 50%;
 }
+.services-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.services_img {
+    flex-basis: 100px;
+}
+.services_text {
+    flex-basis: calc(100% - 100px);
+}
 
 .services h3 {
     font-size: 28px;
