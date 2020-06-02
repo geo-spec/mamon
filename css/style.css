@@ -15,6 +15,11 @@ body {
     box-sizing: border-box;
     font-weight: 700;
 }
+.footer {
+    padding-top: 20x;
+    background-color: #F7F7F7;
+}
+
 .wrap {
     width: 100%;
     max-width: 1180px;
@@ -129,7 +134,7 @@ body {
 }
 .clients {
     display: grid;
-    grid-template: repeat (2, 1fr) / repeat(4, 25%);
+    grid-template: repeat(2, 1fr)/ repeat(4, 25%);
     text-align: center;
     grid-row-gap: 40px;
 }
